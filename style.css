@@ -4,6 +4,7 @@
 }
 body{
     background-color: black;
+    font-family: 'DM Sans', sans-serif;
 }
 .background{
     background-image: url("/home/bazza/tests/form-project/leafy-background");
@@ -23,5 +24,81 @@ body{
     justify-content: center;
 }
 .grey-container{
-    background-color: lightgray
+    background-color: ghostwhite;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.header, .header-2{
+    font-size: 22px;
+    font-weight: 600;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.info-container{
+    background-color: white;
+    height: 30vh;
+    box-shadow: 0px 14px 15px -17px #111;
+}
+.column-1, .column-2{
+    display: flex;
+    flex-direction: column;
+    width: 15vh;
+    justify-content: flex-end;
+    
+}
+.column-1{
+    padding-left: 55px;
+}
+.column-2{
+    padding-left: 180px;
+}
+.info-container{
+    display: flex;
+    
+}
+.header-3{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+input{
+    width: 220px;
+    height: 25px;
+    margin-bottom: 21px;
+    border-radius: 4px;
+    border: solid lightgrey 1px;
+    border-width: 1px;
+}
+label{
+    font-style: bold;
+}
+button{
+    color: white;
+    background-color: #596D48;
+    width: 210px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 55px;
+    margin-top: 30px;
+    font-size: 17px;
+    margin-bottom: 25px;
+    box-shadow: 3px 4px 7px -4px rgba(0,0,0,0.7);
+    border: none;
+}
+.create-account{
+    margin-left: 55px;
+}
+input:focus{
+    border: 1px solid rgb(88, 88, 255); 
+    box-shadow: 3px 4px 7px -4px rgba(0,0,0,0.7);
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active
+{
+    transform: translate(1px,1px);
 }

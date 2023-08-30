@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
 </head>
@@ -22,6 +25,37 @@
           like this in your life to help you realize your deepest dreams.<br>
           Sign up <i>now</i> to get started.</i> </brk></p>
         <p class="header-2">You <i>know</i> you want to.</p>
+      </div>
+      <div class="info-container">
+        <div class="column-1">
+          <p class="header-3"><strong>Lets do this!</strong></p>
+          <form>
+            <label for="first_name"><strong>First Name</strong></label>
+            <input type="text" id="first_name" placeholder="Bob" name="first_name">
+            
+            <label for="user_email"><strong>Email Address:</strong></label>
+            <input type="email" id="user_email" name="email" placeholder="you@example.com">
+
+            <label for="user_password"><strong>Password:</strong></label>
+            <input type="password" id="user_password" name="user_password" class="error">  
+          </form>
+        </div>
+        <div class="column-2">
+          <form>
+            <label for="last_name"><strong>Last Name</strong></label>
+            <input type="text" id="last_name" placeholder="Marley" name="last_name">
+            
+            <label for="phone_number"><strong>Phone Number:</strong></label>
+            <input type="number" id="phone_number" name="phone_number" placeholder="000-000-0000">
+
+            <label for="user_password"><strong>Confirm Password:</strong></label>
+            <input type="password" id="user_password" name="password" class="error">
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <button type="submit">Create Account</button>
+        <p class="create-account"><strong>Already have an account?</strong> <a href="https://www.google.com">Log in</a></p>
       </div>
     </div>
   </div>
